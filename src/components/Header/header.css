@@ -1,0 +1,104 @@
+.headerMain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+    margin-left: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0;
+    background-color: #9ed0f7;
+    
+}
+
+.headerLeft {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(250, 250, 250);
+    font-size: 10vh;
+    line-height: 10vh;
+    font-weight: 700;
+}
+
+.headerLeft a {
+    margin-top: 0;
+    font-family: 'PT Sans',sans-serif;
+    color:white;
+    font-size: 5vh;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.headerRight {
+    float: right;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 15px;
+    padding-left: 5px;
+    border-radius: 4px;
+    background-color: #bb2e44;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none
+}
+
+.headerRight a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 15px;
+    color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.headerMiddle {
+    float: left;
+    margin: -5px 107px 40px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-family: Exo,sans-serif;
+    color: rgb(235, 12, 12);
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.headerMiddle h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(219, 143, 143);
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.text-span {
+    color: #bb2e44;
+}
+
+.e-tahlil {
+    margin-top: 0;
+    font-family: 'PT Sans',sans-serif;
+    color: #fff;
+    font-size: 5vh;
+    font-weight: 700;
+    text-decoration: none;
+}
